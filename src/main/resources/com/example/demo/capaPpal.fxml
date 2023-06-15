@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="609.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.capaPpal">
+   <children>
+      <ImageView fx:id="capacitacion" fitHeight="400.0" fitWidth="609.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../../capaPpal.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="botonCapacitacionBlandito" layoutX="64.0" layoutY="161.0" mnemonicParsing="false" onAction="#capacitarBlandito" onKeyPressed="#capacitarBlandito" text="PAN BLANDITO">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="botonCapacitacionSalvado" layoutX="61.0" layoutY="213.0" mnemonicParsing="false" onAction="#capacitarSalvado" onMouseClicked="#capacitarSalvado" text="PAN SALVADO">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="botonCapacitacionCroissant" layoutX="62.0" layoutY="267.0" mnemonicParsing="false" onAction="#capacitarCroissant" onMouseClicked="#capacitarCroissant" text="CROISSANT">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="botonCapacitacionMantecada" layoutX="60.0" layoutY="318.0" mnemonicParsing="false" onAction="#capacitarMantecada" onMouseClicked="#capacitarMantecada" text="MANTECADA">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="200.0" layoutY="337.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="61.0" text="REGRESAR">
+         <font>
+            <Font name="Book Antiqua Bold Italic" size="10.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

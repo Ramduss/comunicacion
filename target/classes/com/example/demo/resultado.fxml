@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="609.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.resultadoControler">
+   <children>
+      <ImageView fx:id="image" fitHeight="417.0" fitWidth="609.0" layoutX="-1.0" layoutY="-17.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../../Resultados.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="botonSalir" layoutX="94.0" layoutY="355.0" mnemonicParsing="false" onAction="#salir" onKeyPressed="#salir" prefHeight="21.0" prefWidth="65.0" text="SALIR" textAlignment="CENTER" textOverrun="CLIP">
+         <font>
+            <Font name="System Bold Italic" size="10.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
